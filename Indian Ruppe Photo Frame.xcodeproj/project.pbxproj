@@ -1,0 +1,770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2EF5588E9C42B84ED456DCAB /* Pods_Indian_Ruppe_Photo_Frame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6CFB732A342C2C022BF32B7 /* Pods_Indian_Ruppe_Photo_Frame.framework */; };
+		70058CA81DFC0465004B05BB /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 70058CA71DFC0465004B05BB /* libxml2.tbd */; };
+		70058CAB1DFC28CB004B05BB /* 100RupeeNote.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 70058CA91DFC28CB004B05BB /* 100RupeeNote.JPG */; };
+		70058CAC1DFC28CB004B05BB /* 50RupeeNote.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 70058CAA1DFC28CB004B05BB /* 50RupeeNote.JPG */; };
+		70058CAF1DFC29CD004B05BB /* 1000RupeeNote.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 70058CAD1DFC29CD004B05BB /* 1000RupeeNote.jpg */; };
+		70058CB01DFC29CD004B05BB /* 10RupeeNote.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 70058CAE1DFC29CD004B05BB /* 10RupeeNote.jpg */; };
+		701655C71DF692690067322B /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701655C61DF692690067322B /* CustomTableViewCell.swift */; };
+		701655D01DF6B36C0067322B /* scan0027.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 701655CF1DF6B36C0067322B /* scan0027.jpg */; };
+		701655D41DF6B55A0067322B /* 2000.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 701655D11DF6B55A0067322B /* 2000.jpeg */; };
+		701655D51DF6B55A0067322B /* 100.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 701655D21DF6B55A0067322B /* 100.jpg */; };
+		701655D61DF6B55A0067322B /* 50.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 701655D31DF6B55A0067322B /* 50.jpg */; };
+		701655D81DF6B5CD0067322B /* 2000 New.png in Resources */ = {isa = PBXBuildFile; fileRef = 701655D71DF6B5CD0067322B /* 2000 New.png */; };
+		701655DB1DF6B6F30067322B /* 1000.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 701655D91DF6B6F30067322B /* 1000.jpg */; };
+		701655DC1DF6B6F30067322B /* 500.png in Resources */ = {isa = PBXBuildFile; fileRef = 701655DA1DF6B6F30067322B /* 500.png */; };
+		701655E41DF6C2F30067322B /* scan0043.png in Resources */ = {isa = PBXBuildFile; fileRef = 701655DD1DF6C2F30067322B /* scan0043.png */; };
+		701655E51DF6C2F30067322B /* scan0019.png in Resources */ = {isa = PBXBuildFile; fileRef = 701655DE1DF6C2F30067322B /* scan0019.png */; };
+		701655E61DF6C2F30067322B /* New-Rs-1000.png in Resources */ = {isa = PBXBuildFile; fileRef = 701655DF1DF6C2F30067322B /* New-Rs-1000.png */; };
+		701655E71DF6C2F30067322B /* 500-Rupee.png in Resources */ = {isa = PBXBuildFile; fileRef = 701655E01DF6C2F30067322B /* 500-Rupee.png */; };
+		701655E81DF6C2F30067322B /* 100-Rupee.png in Resources */ = {isa = PBXBuildFile; fileRef = 701655E11DF6C2F30067322B /* 100-Rupee.png */; };
+		701655E91DF6C2F30067322B /* 50rupee.png in Resources */ = {isa = PBXBuildFile; fileRef = 701655E21DF6C2F30067322B /* 50rupee.png */; };
+		701655EA1DF6C2F30067322B /* 10Rupee.png in Resources */ = {isa = PBXBuildFile; fileRef = 701655E31DF6C2F30067322B /* 10Rupee.png */; };
+		701655ED1DF6DB170067322B /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701655EB1DF6DB170067322B /* ShareViewController.swift */; };
+		701655F21DF6DB5E0067322B /* ShareViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 701655F11DF6DB5E0067322B /* ShareViewController.xib */; };
+		701655F71DF6DE6B0067322B /* Instagram.png in Resources */ = {isa = PBXBuildFile; fileRef = 701655F31DF6DE6B0067322B /* Instagram.png */; };
+		701655F81DF6DE6B0067322B /* Mail.png in Resources */ = {isa = PBXBuildFile; fileRef = 701655F41DF6DE6B0067322B /* Mail.png */; };
+		701655F91DF6DE6B0067322B /* Whatsapp.png in Resources */ = {isa = PBXBuildFile; fileRef = 701655F51DF6DE6B0067322B /* Whatsapp.png */; };
+		701655FA1DF6DE6B0067322B /* Facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = 701655F61DF6DE6B0067322B /* Facebook.png */; };
+		701655FC1DF6DF2B0067322B /* logo 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 701655FB1DF6DF2B0067322B /* logo 2.png */; };
+		701DBF861DEFD64000C20276 /* Indian_Ruppe_Photo_Frame.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 701DBF841DEFD64000C20276 /* Indian_Ruppe_Photo_Frame.xcdatamodeld */; };
+		701DBF881DEFD64000C20276 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 701DBF871DEFD64000C20276 /* Assets.xcassets */; };
+		701DBF9F1DEFDC3800C20276 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701DBF9A1DEFDC3800C20276 /* AppDelegate.swift */; };
+		701DBFA11DEFDC7400C20276 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 701DBFA01DEFDC7400C20276 /* LaunchScreen.xib */; };
+		701DBFA51DEFDCAC00C20276 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701DBFA31DEFDCAC00C20276 /* HomeViewController.swift */; };
+		701DBFA91DEFDCD300C20276 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 701DBFA81DEFDCD200C20276 /* HomeViewController.xib */; };
+		701DBFAC1DEFF17A00C20276 /* RupeeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701DBFAA1DEFF17A00C20276 /* RupeeViewController.swift */; };
+		701DBFB01DEFF19F00C20276 /* RupeeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 701DBFAF1DEFF19F00C20276 /* RupeeViewController.xib */; };
+		701DBFB21DF0356200C20276 /* 2000-front-side.png in Resources */ = {isa = PBXBuildFile; fileRef = 701DBFB11DF0356200C20276 /* 2000-front-side.png */; };
+		701DBFB61DF03F9B00C20276 /* delete-button-png-28565.png in Resources */ = {isa = PBXBuildFile; fileRef = 701DBFB31DF03F9B00C20276 /* delete-button-png-28565.png */; };
+		701DBFB71DF03F9B00C20276 /* www-icon-5367.png in Resources */ = {isa = PBXBuildFile; fileRef = 701DBFB41DF03F9B00C20276 /* www-icon-5367.png */; };
+		701DBFB81DF03F9B00C20276 /* save-icon-5404.png in Resources */ = {isa = PBXBuildFile; fileRef = 701DBFB51DF03F9B00C20276 /* save-icon-5404.png */; };
+		707A6D361DFE9A0900D1FDEC /* Icon-60.png in Resources */ = {isa = PBXBuildFile; fileRef = 707A6D211DFE9A0700D1FDEC /* Icon-60.png */; };
+		707A6D371DFE9A0900D1FDEC /* Icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 707A6D221DFE9A0800D1FDEC /* Icon-60@2x.png */; };
+		707A6D381DFE9A0900D1FDEC /* Icon-60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 707A6D231DFE9A0800D1FDEC /* Icon-60@3x.png */; };
+		707A6D391DFE9A0900D1FDEC /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 707A6D241DFE9A0800D1FDEC /* Icon-72.png */; };
+		707A6D3A1DFE9A0900D1FDEC /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 707A6D251DFE9A0800D1FDEC /* Icon-72@2x.png */; };
+		707A6D3B1DFE9A0900D1FDEC /* Icon-76.png in Resources */ = {isa = PBXBuildFile; fileRef = 707A6D261DFE9A0800D1FDEC /* Icon-76.png */; };
+		707A6D3C1DFE9A0900D1FDEC /* Icon-76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 707A6D271DFE9A0800D1FDEC /* Icon-76@2x.png */; };
+		707A6D3D1DFE9A0900D1FDEC /* Icon-76@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 707A6D281DFE9A0800D1FDEC /* Icon-76@3x.png */; };
+		707A6D3E1DFE9A0900D1FDEC /* Icon-iPadPro@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 707A6D291DFE9A0800D1FDEC /* Icon-iPadPro@2x.png */; };
+		707A6D3F1DFE9A0900D1FDEC /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 707A6D2A1DFE9A0800D1FDEC /* Icon-Small-50.png */; };
+		707A6D401DFE9A0900D1FDEC /* Icon-Small-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 707A6D2B1DFE9A0800D1FDEC /* Icon-Small-50@2x.png */; };
+		707A6D411DFE9A0900D1FDEC /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 707A6D2C1DFE9A0800D1FDEC /* Icon-Small.png */; };
+		707A6D421DFE9A0900D1FDEC /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 707A6D2D1DFE9A0800D1FDEC /* Icon-Small@2x.png */; };
+		707A6D431DFE9A0900D1FDEC /* Icon-Small@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 707A6D2E1DFE9A0800D1FDEC /* Icon-Small@3x.png */; };
+		707A6D441DFE9A0900D1FDEC /* Icon-Spotlight-40.png in Resources */ = {isa = PBXBuildFile; fileRef = 707A6D2F1DFE9A0800D1FDEC /* Icon-Spotlight-40.png */; };
+		707A6D451DFE9A0900D1FDEC /* Icon-Spotlight-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 707A6D301DFE9A0800D1FDEC /* Icon-Spotlight-40@2x.png */; };
+		707A6D461DFE9A0900D1FDEC /* Icon-Spotlight-40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 707A6D311DFE9A0800D1FDEC /* Icon-Spotlight-40@3x.png */; };
+		707A6D471DFE9A0900D1FDEC /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 707A6D321DFE9A0800D1FDEC /* Icon.png */; };
+		707A6D481DFE9A0900D1FDEC /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 707A6D331DFE9A0800D1FDEC /* Icon@2x.png */; };
+		707A6D491DFE9A0900D1FDEC /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = 707A6D341DFE9A0800D1FDEC /* iTunesArtwork */; };
+		707A6D4A1DFE9A0900D1FDEC /* iTunesArtwork@2x in Resources */ = {isa = PBXBuildFile; fileRef = 707A6D351DFE9A0800D1FDEC /* iTunesArtwork@2x */; };
+		70BCA4681DF81A5500D44D57 /* Background.png in Resources */ = {isa = PBXBuildFile; fileRef = 70BCA4671DF81A5500D44D57 /* Background.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		46975C691EF077AE0075A5D5 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = MyPlayground.playground; path = new/MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		70058CA71DFC0465004B05BB /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		70058CA91DFC28CB004B05BB /* 100RupeeNote.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 100RupeeNote.JPG; sourceTree = "<group>"; };
+		70058CAA1DFC28CB004B05BB /* 50RupeeNote.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 50RupeeNote.JPG; sourceTree = "<group>"; };
+		70058CAD1DFC29CD004B05BB /* 1000RupeeNote.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1000RupeeNote.jpg; sourceTree = "<group>"; };
+		70058CAE1DFC29CD004B05BB /* 10RupeeNote.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 10RupeeNote.jpg; sourceTree = "<group>"; };
+		701655C61DF692690067322B /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		701655CF1DF6B36C0067322B /* scan0027.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = scan0027.jpg; sourceTree = "<group>"; };
+		701655D11DF6B55A0067322B /* 2000.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2000.jpeg; sourceTree = "<group>"; };
+		701655D21DF6B55A0067322B /* 100.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 100.jpg; sourceTree = "<group>"; };
+		701655D31DF6B55A0067322B /* 50.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 50.jpg; sourceTree = "<group>"; };
+		701655D71DF6B5CD0067322B /* 2000 New.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2000 New.png"; sourceTree = "<group>"; };
+		701655D91DF6B6F30067322B /* 1000.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1000.jpg; sourceTree = "<group>"; };
+		701655DA1DF6B6F30067322B /* 500.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 500.png; sourceTree = "<group>"; };
+		701655DD1DF6C2F30067322B /* scan0043.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scan0043.png; sourceTree = "<group>"; };
+		701655DE1DF6C2F30067322B /* scan0019.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scan0019.png; sourceTree = "<group>"; };
+		701655DF1DF6C2F30067322B /* New-Rs-1000.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "New-Rs-1000.png"; sourceTree = "<group>"; };
+		701655E01DF6C2F30067322B /* 500-Rupee.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "500-Rupee.png"; sourceTree = "<group>"; };
+		701655E11DF6C2F30067322B /* 100-Rupee.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "100-Rupee.png"; sourceTree = "<group>"; };
+		701655E21DF6C2F30067322B /* 50rupee.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 50rupee.png; sourceTree = "<group>"; };
+		701655E31DF6C2F30067322B /* 10Rupee.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 10Rupee.png; sourceTree = "<group>"; };
+		701655EB1DF6DB170067322B /* ShareViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
+		701655F11DF6DB5E0067322B /* ShareViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShareViewController.xib; sourceTree = "<group>"; };
+		701655F31DF6DE6B0067322B /* Instagram.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Instagram.png; sourceTree = "<group>"; };
+		701655F41DF6DE6B0067322B /* Mail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mail.png; sourceTree = "<group>"; };
+		701655F51DF6DE6B0067322B /* Whatsapp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Whatsapp.png; sourceTree = "<group>"; };
+		701655F61DF6DE6B0067322B /* Facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Facebook.png; sourceTree = "<group>"; };
+		701655FB1DF6DF2B0067322B /* logo 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo 2.png"; sourceTree = "<group>"; };
+		701DBF7A1DEFD64000C20276 /* Indian Ruppe Photo Frame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Indian Ruppe Photo Frame.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		701DBF851DEFD64000C20276 /* Indian_Ruppe_Photo_Frame.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Indian_Ruppe_Photo_Frame.xcdatamodel; sourceTree = "<group>"; };
+		701DBF871DEFD64000C20276 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		701DBF8C1DEFD64000C20276 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		701DBF9A1DEFDC3800C20276 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		701DBFA01DEFDC7400C20276 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		701DBFA31DEFDCAC00C20276 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		701DBFA81DEFDCD200C20276 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		701DBFAA1DEFF17A00C20276 /* RupeeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RupeeViewController.swift; sourceTree = "<group>"; };
+		701DBFAF1DEFF19F00C20276 /* RupeeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RupeeViewController.xib; sourceTree = "<group>"; };
+		701DBFB11DF0356200C20276 /* 2000-front-side.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2000-front-side.png"; sourceTree = "<group>"; };
+		701DBFB31DF03F9B00C20276 /* delete-button-png-28565.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "delete-button-png-28565.png"; sourceTree = "<group>"; };
+		701DBFB41DF03F9B00C20276 /* www-icon-5367.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "www-icon-5367.png"; sourceTree = "<group>"; };
+		701DBFB51DF03F9B00C20276 /* save-icon-5404.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "save-icon-5404.png"; sourceTree = "<group>"; };
+		707A6D211DFE9A0700D1FDEC /* Icon-60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60.png"; sourceTree = "<group>"; };
+		707A6D221DFE9A0800D1FDEC /* Icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@2x.png"; sourceTree = "<group>"; };
+		707A6D231DFE9A0800D1FDEC /* Icon-60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@3x.png"; sourceTree = "<group>"; };
+		707A6D241DFE9A0800D1FDEC /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		707A6D251DFE9A0800D1FDEC /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72@2x.png"; sourceTree = "<group>"; };
+		707A6D261DFE9A0800D1FDEC /* Icon-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76.png"; sourceTree = "<group>"; };
+		707A6D271DFE9A0800D1FDEC /* Icon-76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76@2x.png"; sourceTree = "<group>"; };
+		707A6D281DFE9A0800D1FDEC /* Icon-76@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76@3x.png"; sourceTree = "<group>"; };
+		707A6D291DFE9A0800D1FDEC /* Icon-iPadPro@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-iPadPro@2x.png"; sourceTree = "<group>"; };
+		707A6D2A1DFE9A0800D1FDEC /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
+		707A6D2B1DFE9A0800D1FDEC /* Icon-Small-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50@2x.png"; sourceTree = "<group>"; };
+		707A6D2C1DFE9A0800D1FDEC /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		707A6D2D1DFE9A0800D1FDEC /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		707A6D2E1DFE9A0800D1FDEC /* Icon-Small@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@3x.png"; sourceTree = "<group>"; };
+		707A6D2F1DFE9A0800D1FDEC /* Icon-Spotlight-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Spotlight-40.png"; sourceTree = "<group>"; };
+		707A6D301DFE9A0800D1FDEC /* Icon-Spotlight-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Spotlight-40@2x.png"; sourceTree = "<group>"; };
+		707A6D311DFE9A0800D1FDEC /* Icon-Spotlight-40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Spotlight-40@3x.png"; sourceTree = "<group>"; };
+		707A6D321DFE9A0800D1FDEC /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		707A6D331DFE9A0800D1FDEC /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		707A6D341DFE9A0800D1FDEC /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork; sourceTree = "<group>"; };
+		707A6D351DFE9A0800D1FDEC /* iTunesArtwork@2x */ = {isa = PBXFileReference; lastKnownFileType = file; path = "iTunesArtwork@2x"; sourceTree = "<group>"; };
+		70BCA4671DF81A5500D44D57 /* Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Background.png; sourceTree = "<group>"; };
+		74696BFF65DE50F2A3D3EDF4 /* Pods-Indian Ruppe Photo Frame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Indian Ruppe Photo Frame.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Indian Ruppe Photo Frame/Pods-Indian Ruppe Photo Frame.debug.xcconfig"; sourceTree = "<group>"; };
+		A6CFB732A342C2C022BF32B7 /* Pods_Indian_Ruppe_Photo_Frame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Indian_Ruppe_Photo_Frame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9D23209F5D664E06E95CB34 /* Pods-Indian Ruppe Photo Frame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Indian Ruppe Photo Frame.release.xcconfig"; path = "Pods/Target Support Files/Pods-Indian Ruppe Photo Frame/Pods-Indian Ruppe Photo Frame.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		701DBF771DEFD63F00C20276 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70058CA81DFC0465004B05BB /* libxml2.tbd in Frameworks */,
+				2EF5588E9C42B84ED456DCAB /* Pods_Indian_Ruppe_Photo_Frame.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A63CF7478F52BF89432DE30 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				70058CA71DFC0465004B05BB /* libxml2.tbd */,
+				A6CFB732A342C2C022BF32B7 /* Pods_Indian_Ruppe_Photo_Frame.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		701655C51DF692690067322B /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				701655C61DF692690067322B /* CustomTableViewCell.swift */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		701655F01DF6DB5E0067322B /* ShareViewController */ = {
+			isa = PBXGroup;
+			children = (
+				701655F11DF6DB5E0067322B /* ShareViewController.xib */,
+			);
+			path = ShareViewController;
+			sourceTree = "<group>";
+		};
+		701DBF711DEFD63F00C20276 = {
+			isa = PBXGroup;
+			children = (
+				701DBF921DEFDC2700C20276 /* Resources */,
+				701DBF7C1DEFD64000C20276 /* Indian Ruppe Photo Frame */,
+				701DBF7B1DEFD64000C20276 /* Products */,
+				701DBF981DEFDC2700C20276 /* Framework */,
+				DC558DBFB4FCBB875C4AD424 /* Pods */,
+				4A63CF7478F52BF89432DE30 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		701DBF7B1DEFD64000C20276 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				701DBF7A1DEFD64000C20276 /* Indian Ruppe Photo Frame.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		701DBF7C1DEFD64000C20276 /* Indian Ruppe Photo Frame */ = {
+			isa = PBXGroup;
+			children = (
+				701DBF9B1DEFDC3800C20276 /* Singleton */,
+				701DBF991DEFDC3800C20276 /* AppDelegate */,
+				701DBFA21DEFDC9700C20276 /* Controller */,
+				701DBF9C1DEFDC3800C20276 /* Utils */,
+				701DBF9D1DEFDC3800C20276 /* Model */,
+				701DBF9E1DEFDC3800C20276 /* Views */,
+				701DBF871DEFD64000C20276 /* Assets.xcassets */,
+				701DBFA01DEFDC7400C20276 /* LaunchScreen.xib */,
+				46975C691EF077AE0075A5D5 /* MyPlayground.playground */,
+				701DBF8C1DEFD64000C20276 /* Info.plist */,
+				701DBF841DEFD64000C20276 /* Indian_Ruppe_Photo_Frame.xcdatamodeld */,
+			);
+			path = "Indian Ruppe Photo Frame";
+			sourceTree = "<group>";
+		};
+		701DBF921DEFDC2700C20276 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				701DBF931DEFDC2700C20276 /* AppIcon */,
+				701DBF941DEFDC2700C20276 /* Images */,
+				701DBF951DEFDC2700C20276 /* PlugIns */,
+				701DBF961DEFDC2700C20276 /* StaticData */,
+				701DBF971DEFDC2700C20276 /* XIBFIles */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		701DBF931DEFDC2700C20276 /* AppIcon */ = {
+			isa = PBXGroup;
+			children = (
+				707A6D211DFE9A0700D1FDEC /* Icon-60.png */,
+				707A6D221DFE9A0800D1FDEC /* Icon-60@2x.png */,
+				707A6D231DFE9A0800D1FDEC /* Icon-60@3x.png */,
+				707A6D241DFE9A0800D1FDEC /* Icon-72.png */,
+				707A6D251DFE9A0800D1FDEC /* Icon-72@2x.png */,
+				707A6D261DFE9A0800D1FDEC /* Icon-76.png */,
+				707A6D271DFE9A0800D1FDEC /* Icon-76@2x.png */,
+				707A6D281DFE9A0800D1FDEC /* Icon-76@3x.png */,
+				707A6D291DFE9A0800D1FDEC /* Icon-iPadPro@2x.png */,
+				707A6D2A1DFE9A0800D1FDEC /* Icon-Small-50.png */,
+				707A6D2B1DFE9A0800D1FDEC /* Icon-Small-50@2x.png */,
+				707A6D2C1DFE9A0800D1FDEC /* Icon-Small.png */,
+				707A6D2D1DFE9A0800D1FDEC /* Icon-Small@2x.png */,
+				707A6D2E1DFE9A0800D1FDEC /* Icon-Small@3x.png */,
+				707A6D2F1DFE9A0800D1FDEC /* Icon-Spotlight-40.png */,
+				707A6D301DFE9A0800D1FDEC /* Icon-Spotlight-40@2x.png */,
+				707A6D311DFE9A0800D1FDEC /* Icon-Spotlight-40@3x.png */,
+				707A6D321DFE9A0800D1FDEC /* Icon.png */,
+				707A6D331DFE9A0800D1FDEC /* Icon@2x.png */,
+				707A6D341DFE9A0800D1FDEC /* iTunesArtwork */,
+				707A6D351DFE9A0800D1FDEC /* iTunesArtwork@2x */,
+			);
+			path = AppIcon;
+			sourceTree = "<group>";
+		};
+		701DBF941DEFDC2700C20276 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				70058CAD1DFC29CD004B05BB /* 1000RupeeNote.jpg */,
+				70058CAE1DFC29CD004B05BB /* 10RupeeNote.jpg */,
+				70058CA91DFC28CB004B05BB /* 100RupeeNote.JPG */,
+				70058CAA1DFC28CB004B05BB /* 50RupeeNote.JPG */,
+				70BCA4671DF81A5500D44D57 /* Background.png */,
+				701655FB1DF6DF2B0067322B /* logo 2.png */,
+				701655F31DF6DE6B0067322B /* Instagram.png */,
+				701655F41DF6DE6B0067322B /* Mail.png */,
+				701655F51DF6DE6B0067322B /* Whatsapp.png */,
+				701655F61DF6DE6B0067322B /* Facebook.png */,
+				701655DD1DF6C2F30067322B /* scan0043.png */,
+				701655DE1DF6C2F30067322B /* scan0019.png */,
+				701655DF1DF6C2F30067322B /* New-Rs-1000.png */,
+				701655E01DF6C2F30067322B /* 500-Rupee.png */,
+				701655E11DF6C2F30067322B /* 100-Rupee.png */,
+				701655E21DF6C2F30067322B /* 50rupee.png */,
+				701655E31DF6C2F30067322B /* 10Rupee.png */,
+				701655D91DF6B6F30067322B /* 1000.jpg */,
+				701655DA1DF6B6F30067322B /* 500.png */,
+				701655D71DF6B5CD0067322B /* 2000 New.png */,
+				701655D11DF6B55A0067322B /* 2000.jpeg */,
+				701655D21DF6B55A0067322B /* 100.jpg */,
+				701655D31DF6B55A0067322B /* 50.jpg */,
+				701655CF1DF6B36C0067322B /* scan0027.jpg */,
+				701DBFB31DF03F9B00C20276 /* delete-button-png-28565.png */,
+				701DBFB41DF03F9B00C20276 /* www-icon-5367.png */,
+				701DBFB51DF03F9B00C20276 /* save-icon-5404.png */,
+				701DBFB11DF0356200C20276 /* 2000-front-side.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		701DBF951DEFDC2700C20276 /* PlugIns */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = PlugIns;
+			sourceTree = "<group>";
+		};
+		701DBF961DEFDC2700C20276 /* StaticData */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = StaticData;
+			sourceTree = "<group>";
+		};
+		701DBF971DEFDC2700C20276 /* XIBFIles */ = {
+			isa = PBXGroup;
+			children = (
+				701655F01DF6DB5E0067322B /* ShareViewController */,
+				701DBFAE1DEFF19F00C20276 /* RupeeViewController */,
+				701DBFA71DEFDCD200C20276 /* HomeViewController */,
+			);
+			path = XIBFIles;
+			sourceTree = "<group>";
+		};
+		701DBF981DEFDC2700C20276 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Framework;
+			sourceTree = "<group>";
+		};
+		701DBF991DEFDC3800C20276 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				701DBF9A1DEFDC3800C20276 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		701DBF9B1DEFDC3800C20276 /* Singleton */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Singleton;
+			sourceTree = "<group>";
+		};
+		701DBF9C1DEFDC3800C20276 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		701DBF9D1DEFDC3800C20276 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		701DBF9E1DEFDC3800C20276 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				701655C51DF692690067322B /* TableViewCell */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		701DBFA21DEFDC9700C20276 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				701DBFA31DEFDCAC00C20276 /* HomeViewController.swift */,
+				701DBFAA1DEFF17A00C20276 /* RupeeViewController.swift */,
+				701655EB1DF6DB170067322B /* ShareViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		701DBFA71DEFDCD200C20276 /* HomeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				701DBFA81DEFDCD200C20276 /* HomeViewController.xib */,
+			);
+			path = HomeViewController;
+			sourceTree = "<group>";
+		};
+		701DBFAE1DEFF19F00C20276 /* RupeeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				701DBFAF1DEFF19F00C20276 /* RupeeViewController.xib */,
+			);
+			path = RupeeViewController;
+			sourceTree = "<group>";
+		};
+		DC558DBFB4FCBB875C4AD424 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				74696BFF65DE50F2A3D3EDF4 /* Pods-Indian Ruppe Photo Frame.debug.xcconfig */,
+				C9D23209F5D664E06E95CB34 /* Pods-Indian Ruppe Photo Frame.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		701DBF791DEFD63F00C20276 /* Indian Ruppe Photo Frame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 701DBF8F1DEFD64000C20276 /* Build configuration list for PBXNativeTarget "Indian Ruppe Photo Frame" */;
+			buildPhases = (
+				EF6323BE8BEC47AA18DA3F72 /* [CP] Check Pods Manifest.lock */,
+				701DBF761DEFD63F00C20276 /* Sources */,
+				701DBF771DEFD63F00C20276 /* Frameworks */,
+				701DBF781DEFD63F00C20276 /* Resources */,
+				BBC54D8399D4B23974698D13 /* [CP] Embed Pods Frameworks */,
+				D7CC221B85DAD1B783AD6E96 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Indian Ruppe Photo Frame";
+			productName = "Indian Ruppe Photo Frame";
+			productReference = 701DBF7A1DEFD64000C20276 /* Indian Ruppe Photo Frame.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		701DBF721DEFD63F00C20276 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Cousins Infotech";
+				TargetAttributes = {
+					701DBF791DEFD63F00C20276 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 2652KXLL6Q;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 701DBF751DEFD63F00C20276 /* Build configuration list for PBXProject "Indian Ruppe Photo Frame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 701DBF711DEFD63F00C20276;
+			productRefGroup = 701DBF7B1DEFD64000C20276 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				701DBF791DEFD63F00C20276 /* Indian Ruppe Photo Frame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		701DBF781DEFD63F00C20276 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				707A6D381DFE9A0900D1FDEC /* Icon-60@3x.png in Resources */,
+				701655D61DF6B55A0067322B /* 50.jpg in Resources */,
+				707A6D3A1DFE9A0900D1FDEC /* Icon-72@2x.png in Resources */,
+				70058CAC1DFC28CB004B05BB /* 50RupeeNote.JPG in Resources */,
+				707A6D3C1DFE9A0900D1FDEC /* Icon-76@2x.png in Resources */,
+				70058CAF1DFC29CD004B05BB /* 1000RupeeNote.jpg in Resources */,
+				701655E41DF6C2F30067322B /* scan0043.png in Resources */,
+				701DBFB01DEFF19F00C20276 /* RupeeViewController.xib in Resources */,
+				701655E71DF6C2F30067322B /* 500-Rupee.png in Resources */,
+				701655DB1DF6B6F30067322B /* 1000.jpg in Resources */,
+				701655D01DF6B36C0067322B /* scan0027.jpg in Resources */,
+				701655F71DF6DE6B0067322B /* Instagram.png in Resources */,
+				707A6D431DFE9A0900D1FDEC /* Icon-Small@3x.png in Resources */,
+				707A6D3F1DFE9A0900D1FDEC /* Icon-Small-50.png in Resources */,
+				70058CAB1DFC28CB004B05BB /* 100RupeeNote.JPG in Resources */,
+				701655EA1DF6C2F30067322B /* 10Rupee.png in Resources */,
+				701DBFB61DF03F9B00C20276 /* delete-button-png-28565.png in Resources */,
+				707A6D3D1DFE9A0900D1FDEC /* Icon-76@3x.png in Resources */,
+				701655FA1DF6DE6B0067322B /* Facebook.png in Resources */,
+				707A6D371DFE9A0900D1FDEC /* Icon-60@2x.png in Resources */,
+				701655D51DF6B55A0067322B /* 100.jpg in Resources */,
+				707A6D471DFE9A0900D1FDEC /* Icon.png in Resources */,
+				707A6D361DFE9A0900D1FDEC /* Icon-60.png in Resources */,
+				707A6D411DFE9A0900D1FDEC /* Icon-Small.png in Resources */,
+				701655FC1DF6DF2B0067322B /* logo 2.png in Resources */,
+				707A6D3E1DFE9A0900D1FDEC /* Icon-iPadPro@2x.png in Resources */,
+				701655E81DF6C2F30067322B /* 100-Rupee.png in Resources */,
+				707A6D3B1DFE9A0900D1FDEC /* Icon-76.png in Resources */,
+				707A6D491DFE9A0900D1FDEC /* iTunesArtwork in Resources */,
+				707A6D461DFE9A0900D1FDEC /* Icon-Spotlight-40@3x.png in Resources */,
+				70058CB01DFC29CD004B05BB /* 10RupeeNote.jpg in Resources */,
+				701655F21DF6DB5E0067322B /* ShareViewController.xib in Resources */,
+				701DBFB71DF03F9B00C20276 /* www-icon-5367.png in Resources */,
+				70BCA4681DF81A5500D44D57 /* Background.png in Resources */,
+				707A6D451DFE9A0900D1FDEC /* Icon-Spotlight-40@2x.png in Resources */,
+				701DBFA11DEFDC7400C20276 /* LaunchScreen.xib in Resources */,
+				701655F91DF6DE6B0067322B /* Whatsapp.png in Resources */,
+				707A6D481DFE9A0900D1FDEC /* Icon@2x.png in Resources */,
+				707A6D401DFE9A0900D1FDEC /* Icon-Small-50@2x.png in Resources */,
+				701655D81DF6B5CD0067322B /* 2000 New.png in Resources */,
+				701655E61DF6C2F30067322B /* New-Rs-1000.png in Resources */,
+				701655F81DF6DE6B0067322B /* Mail.png in Resources */,
+				701DBFB81DF03F9B00C20276 /* save-icon-5404.png in Resources */,
+				707A6D4A1DFE9A0900D1FDEC /* iTunesArtwork@2x in Resources */,
+				701655D41DF6B55A0067322B /* 2000.jpeg in Resources */,
+				701DBFB21DF0356200C20276 /* 2000-front-side.png in Resources */,
+				701655E91DF6C2F30067322B /* 50rupee.png in Resources */,
+				701655E51DF6C2F30067322B /* scan0019.png in Resources */,
+				701DBF881DEFD64000C20276 /* Assets.xcassets in Resources */,
+				707A6D391DFE9A0900D1FDEC /* Icon-72.png in Resources */,
+				707A6D441DFE9A0900D1FDEC /* Icon-Spotlight-40.png in Resources */,
+				707A6D421DFE9A0900D1FDEC /* Icon-Small@2x.png in Resources */,
+				701DBFA91DEFDCD300C20276 /* HomeViewController.xib in Resources */,
+				701655DC1DF6B6F30067322B /* 500.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BBC54D8399D4B23974698D13 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Indian Ruppe Photo Frame/Pods-Indian Ruppe Photo Frame-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7CC221B85DAD1B783AD6E96 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Indian Ruppe Photo Frame/Pods-Indian Ruppe Photo Frame-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF6323BE8BEC47AA18DA3F72 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		701DBF761DEFD63F00C20276 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				701655ED1DF6DB170067322B /* ShareViewController.swift in Sources */,
+				701DBFAC1DEFF17A00C20276 /* RupeeViewController.swift in Sources */,
+				701655C71DF692690067322B /* CustomTableViewCell.swift in Sources */,
+				701DBF9F1DEFDC3800C20276 /* AppDelegate.swift in Sources */,
+				701DBF861DEFD64000C20276 /* Indian_Ruppe_Photo_Frame.xcdatamodeld in Sources */,
+				701DBFA51DEFDCAC00C20276 /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		701DBF8D1DEFD64000C20276 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		701DBF8E1DEFD64000C20276 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		701DBF901DEFD64000C20276 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74696BFF65DE50F2A3D3EDF4 /* Pods-Indian Ruppe Photo Frame.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2652KXLL6Q;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Framework",
+				);
+				INFOPLIST_FILE = "Indian Ruppe Photo Frame/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.blueleaftechnologiesllc.Indian-Note-Photo-Frame";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		701DBF911DEFD64000C20276 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9D23209F5D664E06E95CB34 /* Pods-Indian Ruppe Photo Frame.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2652KXLL6Q;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Framework",
+				);
+				INFOPLIST_FILE = "Indian Ruppe Photo Frame/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.blueleaftechnologiesllc.Indian-Note-Photo-Frame";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		701DBF751DEFD63F00C20276 /* Build configuration list for PBXProject "Indian Ruppe Photo Frame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				701DBF8D1DEFD64000C20276 /* Debug */,
+				701DBF8E1DEFD64000C20276 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		701DBF8F1DEFD64000C20276 /* Build configuration list for PBXNativeTarget "Indian Ruppe Photo Frame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				701DBF901DEFD64000C20276 /* Debug */,
+				701DBF911DEFD64000C20276 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		701DBF841DEFD64000C20276 /* Indian_Ruppe_Photo_Frame.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				701DBF851DEFD64000C20276 /* Indian_Ruppe_Photo_Frame.xcdatamodel */,
+			);
+			currentVersion = 701DBF851DEFD64000C20276 /* Indian_Ruppe_Photo_Frame.xcdatamodel */;
+			path = Indian_Ruppe_Photo_Frame.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 701DBF721DEFD63F00C20276 /* Project object */;
+}
